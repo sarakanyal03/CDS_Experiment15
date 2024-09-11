@@ -16,7 +16,7 @@ When a recursive function is called, the following happens: <BR>
 
 # CODE & OUTPUT
 
-1. CODE A:
+1. CODE A: <BR>
 ```
 //SARA KANYAL
 //23070123115
@@ -42,10 +42,10 @@ int main (){
     return 0;
 }
 ```
-* OUTPUT A :
+* OUTPUT A : <BR>
 ![EXP15A](https://github.com/sarakanyal03/CDS_Experiment15/blob/main/15A.png)
 
-2. CODE B:
+2. CODE B: <BR>
 ```
 //SARA KANYAL
 //23070123115
@@ -71,10 +71,10 @@ int main (){
     return 0;
 }
 ```
-* OUTPUT B :
+* OUTPUT B : <BR>
 ![EXP15B](https://github.com/sarakanyal03/CDS_Experiment15/blob/main/15B.png)
 
-3. CODE C:
+3. CODE C: <BR>
 ```
 //SARA KANYAL
 //23070123115
@@ -99,10 +99,10 @@ int main (){
     return 0 ;
 }
 ```
-* OUTPUT C :
+* OUTPUT C : <BR>
 ![EXP15C](https://github.com/sarakanyal03/CDS_Experiment15/blob/main/15C.png)
 
-4. CODE D:
+4. CODE D: <BR>
 ```
 //SARA KANYAL
 //23070123115
@@ -126,7 +126,15 @@ int main (){
     return 0 ;
 }
 ```
-* OUTPUT D:
+* OUTPUT D: <BR>
 ![EXP15D](https://github.com/sarakanyal03/CDS_Experiment15/blob/main/15D.png)
 
 # CONCLUSION
+
+We effectively studied and implemented the idea of recursion in C++ in this experiment. Examples of recursion, which is the process by which a function calls itself to solve smaller sub-problems, included finding the factorial, creating Fibonacci sequences, and searching algorithms. <BR>
+By examining recursive functions, we discovered the following important realizations:
+* Simpleness of Expression: When a problem is inherently recursive, such as in the case of tree traversal and divide-and-conquer algorithms, recursive solutions frequently offer a clear and simple approach to solve it. <BR>
+* Base Case and Termination: In the absence of suitable ending circumstances, unbounded recursion and stack overflow result. This highlights the significance of having a well-defined base case. <BR>
+* Stack Depth and Limitations: We also discovered that recursive methods may not be suitable for solving some problems due to the possibility of stack overflow errors resulting from deep recursion. <BR>
+
+ 
